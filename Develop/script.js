@@ -14,7 +14,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-// create variables for alpha, numeric characters and symbols
+// creating variables for alpha, numeric characters and symbols
 
 
 var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -29,13 +29,14 @@ lowerChars = confirm("Would you like to have at leaset 1 lower case letter in yo
 symbol = confirm("Would you like to have at least 1 spececial character in your password?");
 
 
+// Declaring generatePassword function and creating prompt for password length 
 
-// Create prompt for password length
 function generatePassword() {
- var passwordLength = promt("How may characters would you liek your password to be? 8-128 characters?");
-    
-
-  
-
-}
-generatePassword();
+  var result = "";
+   var passwordLength = prompt("How may characters would you like your password to be? 8-128 characters?");
+      if (passwordLength < 8 || passwordLength > 128) {
+        alert("Please choose at least 8 or no more than 128 characters.");
+        return generatePassword();
+      }
+    }    
+  generatePassword();
