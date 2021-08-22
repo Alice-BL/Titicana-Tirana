@@ -53,6 +53,6 @@ function writePassword() {
 }
 document.querySelector("#password").value = password;
 
-};
+}
 writePassword();
 
