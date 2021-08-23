@@ -12,7 +12,6 @@
 6. The URL of the github repository:
 https://github.com/Alice-BL/Titicana-Tirana
 
+7. The URL of the deployed application
 
-
-
-
+https://alice-bl.github.io/Titicana-Tirana/
