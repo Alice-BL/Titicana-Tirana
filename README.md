@@ -7,7 +7,7 @@
 
 
 5. Screenshot
-![password](https://github.com/Alice-BL/Titicana-Tirana/blob/main/Assets/Capture.PNG)
+![password](https://github.com/Alice-BL/Titicana-Tirana/blob/main/Assets/Screenshot_1.PNG)
 
 6. The URL of the github repository:
 https://github.com/Alice-BL/Titicana-Tirana
@@ -15,3 +15,4 @@ https://github.com/Alice-BL/Titicana-Tirana
 7. The URL of the deployed application
 
 https://alice-bl.github.io/Titicana-Tirana/
+
