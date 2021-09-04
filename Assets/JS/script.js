@@ -46,6 +46,13 @@ function generatePassword() {
   if (userWantNum) {
     charBank += numberChars;
   }
+  // My input should be validated and at least one character type should be selected
+
+  if (!userWantLow&&!userWantUpp&&!userWantNum&&!userWantSymbol) {
+    alert("Please select at least 1 charater type");
+   return generatePassword();
+  }
+
   
   // the random password is an empty string to be filled up what user selects above
   var password = "";
@@ -70,3 +77,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
