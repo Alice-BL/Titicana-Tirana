@@ -46,22 +46,24 @@ function generatePassword() {
   if (userWantNum) {
     charBank += numberChars;
   }
-  // My input should be validated and at least one character type should be selected
 
-  if (!userWantLow&&!userWantUpp&&!userWantNum&&!userWantSymbol) {
+  // My input should be validated and at least one character type should be selected
+  if (!userWantLow || !userWantUpp || !userWantNum || !userWantSymbol) {
     alert("Please select at least 1 charater type");
    return generatePassword();
   }
-
   
-  // the random password is an empty string to be filled up what user selects above
+    // the random password is an empty string to be filled up what user selects above
   var password = "";
 
   // Depending on how many characters the user'd like the password to be , the loop will run through until the length ends, do the math and add the character types to create the [random]password
   for (var i = 0; i < passLength; i++) {
     password += charBank.charAt(Math.floor(Math.random() * charBank.length));
+  // as long as the condition passes the validator, it will loop
+  // create a new variable for valid password
 
-  }
+}
+
   return password;
 
 }
@@ -78,4 +80,10 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+
+//If a user says yes to every question. They should get a password that includes every character type (uppercase, lowercase, special, and number). However, that isn't guaranteed to happen with your code. Sometimes it includes all the character types the user wanted, sometimes it doesn't.
+
+
+
+// This is because of the code I copied and showed you earlier. Your code randomly selects characters from charBank, meaning it doesn't guarentee each character type is chosen.
 

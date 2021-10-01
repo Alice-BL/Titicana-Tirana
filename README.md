@@ -1,4 +1,4 @@
-# Titicana-Tirana
+# Password Generator (Titicana-Tirana)
  
 1. Create a series of prompts for password criteria
 2. Character types: alphabets, numbers, special characters
@@ -10,9 +10,9 @@
 ![password](https://github.com/Alice-BL/Titicana-Tirana/blob/main/Assets/Screenshot_1.PNG)
 
 6. The URL of the github repository:
-https://github.com/Alice-BL/Titicana-Tirana
+https://github.com/thutuephan/Titicana-Tirana
 
 7. The URL of the deployed application
+https://thutuephan.github.io/Titicana-Tirana/
 
-https://alice-bl.github.io/Titicana-Tirana/
 
