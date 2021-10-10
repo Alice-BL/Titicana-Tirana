@@ -1,4 +1,9 @@
 # Password Generator (Titicana-Tirana)
+
+# License
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
  
 1. Create a series of prompts for password criteria
 2. Character types: alphabets, numbers, special characters
