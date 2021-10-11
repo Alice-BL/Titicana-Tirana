@@ -1,7 +1,5 @@
 # Password Generator (Titicana-Tirana)
 
-
-
  
 1. Create a series of prompts for password criteria
 2. Character types: alphabets, numbers, special characters
