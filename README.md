@@ -9,10 +9,11 @@
 
 5. Screenshot
 ![password](https://github.com/Alice-BL/Titicana-Tirana/blob/main/Assets/Screenshot_1.PNG)
+![promts](https://github.com/thutuephan/Titicana-Tirana/blob/main/Assets/Prompts.PNG)
 
 
 6. The URL of the github repository:
-https://github.com/thutuephan/Titicana-Tirana
+https://github.com/thutuephan/Titicana-Tiran
 
 7. The URL of the deployed application
 https://thutuephan.github.io/Titicana-Tirana/
